@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IShan/static/css/main.f67308a3.css",
+    "main.js": "/IShan/static/js/main.dd79eff3.js",
+    "static/js/453.a7d99afe.chunk.js": "/IShan/static/js/453.a7d99afe.chunk.js",
+    "static/media/profilepic.jpeg": "/IShan/static/media/profilepic.d69cbf5619d840775a07.jpeg",
+    "index.html": "/IShan/index.html",
+    "main.f67308a3.css.map": "/IShan/static/css/main.f67308a3.css.map",
+    "main.dd79eff3.js.map": "/IShan/static/js/main.dd79eff3.js.map",
+    "453.a7d99afe.chunk.js.map": "/IShan/static/js/453.a7d99afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f67308a3.css",
+    "static/js/main.dd79eff3.js"
+  ]
+}
