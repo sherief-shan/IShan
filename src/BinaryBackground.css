@@ -1,0 +1,75 @@
+.binary-background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background: var(--primary-light);
+}
+
+.binary-strip {
+  position: absolute;
+  top: -120%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.22em;
+  line-height: 1.2;
+  white-space: nowrap;
+  animation: binaryFall linear infinite;
+}
+
+.binary-strip span {
+  display: block;
+}
+
+.binary-strip--1 {
+  left: 4%;
+  width: 7.5rem;
+  animation-duration: 24s;
+}
+
+.binary-strip--2 {
+  left: 18%;
+  width: 8rem;
+  animation-duration: 20s;
+}
+
+.binary-strip--3 {
+  left: 36%;
+  width: 7rem;
+  animation-duration: 28s;
+}
+
+.binary-strip--4 {
+  left: 54%;
+  width: 7.5rem;
+  animation-duration: 22s;
+}
+
+.binary-strip--5 {
+  left: 72%;
+  width: 6.5rem;
+  animation-duration: 26s;
+}
+
+.binary-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.15), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 20%);
+  pointer-events: none;
+}
+
+@keyframes binaryFall {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(220%);
+  }
+}
