@@ -46,7 +46,7 @@ const projects = [
 const skills = ['React', 'React Native', 'Node.js', 'TypeScript', 'Responsive Design'];
 
 function App() {
-  return (
+  return (  
     <div className="portfolio-app">
       <div className="background-panel">
         <div className="binary-background" aria-hidden="true">
